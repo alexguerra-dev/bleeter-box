@@ -6,6 +6,7 @@ import DrumMachine from '../components/DrumMachine'
 
 let WAContext = window.AudioContext || (window as any).webkitAudioContext
 let context = new WAContext()
+
 export default function Home() {
     useEffect(() => {
         const setup = async () => {
