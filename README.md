@@ -54,6 +54,7 @@ It is sort of a playground. A place to explore a thing.
   - [x] Forget what you were going to add.
 - [ ] Project documentation
   - [ ] Document the integration of rnbo and nextjs.
+  - [ ] Add this repo as a link in the documentation.
 
 > Idea: Spinning picture of a cute thing. When you change the pitch the image circle changes speed and direction
 
