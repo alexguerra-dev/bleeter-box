@@ -27,7 +27,7 @@ It is sort of a playground. A place to explore a thing.
 - Max / MSP
   - **RNBO**
 - NextJs
-- Verecel
+- (Vercel)[https://vercel.com/]
 
 ![a man in a suit and tie is dancing in a living room and saying `` we got this ! ''](https://media.tenor.com/BI9I1EmGggUAAAAC/chris-farley-running.gif)
 
@@ -35,15 +35,25 @@ It is sort of a playground. A place to explore a thing.
 
 - [ ] Brainstorm
 
+  - [ ] Want to have a cool background.
   - [ ] What is a music box?
   - [ ] What are the elements that make a good music box.
+    - [ ] It is interesting to look at.
   - [ ] Music boxes are not something you _play_. They are something you look at.[^1]
 
 - [ ] Plan
   - [ ] Mockup
+  - [ ] Button Design and Play
+    - [ ] Make _Audio Start_ and _Audio Stop_ Buttons.
+    - [ ] See how good AI is at playing with Tailwinds
 - [ ] Figure out what it is actually going todo.
 - [x] Find amen break in wav file format.
 - [ ] Make website
+  - [ ] Add favicon
+- [ ] Do random things
+  - [x] Forget what you were going to add.
+- [ ] Project documentation
+  - [ ] Document the integration of rnbo and nextjs.
 
 > Idea: Spinning picture of a cute thing. When you change the pitch the image circle changes speed and direction
 
@@ -58,11 +68,12 @@ I have a tendency to make many little useless projects. I should work on having 
 
 - Work on making my editor pretty.[^2]
 - Read the docs.
-  - [Javascript]()
-  - [React]()
-  - [NextJs]()
-  - [Max MSP]()
-  - [RNBO]()
+  - [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+  - [React](https://react.dev/)
+  - [NextJs](https://nextjs.org/docs)
+  - [Tailwinds](https://tailwindcss.com/docs/)
+  - [Max MSP](https://docs.cycling74.com/)
+  - [RNBO](https://rnbo.cycling74.com/)
 
 ---
 
