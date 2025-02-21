@@ -1,5 +1,5 @@
 'use client'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, ChangeEvent } from 'react'
 import { createDevice, TimeNow, MessageEvent } from '@rnbo/js'
 
 let WAContext
@@ -12,6 +12,8 @@ if (typeof window !== 'undefined') {
 
 export default function Page() {
     const [device, setDevice] = useState<any>(null)
+    const [gainValue, setGainValue] = useState(0)
+
     useEffect(() => {
         const setup = async () => {
             let rawPatcher = await fetch('/export/patch.export.json')
@@ -64,19 +66,46 @@ export default function Page() {
         const param = device.parametersById.get('gain')
         param.value = 50
     }
+    const handleSliderChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+        const value = parseFloat(event.target.value)
+        setGainValue(value)
+        if (device) {
+            const param = device.parametersById.get('gain')
+            param.value = value
+        }
+    }
     return (
-        <div className=" text-8xl">
-            <div className="flex flex-col p-100 m-20">
-                <button className="bg-green-700" onClick={start}>
-                    Start Audio
-                </button>
-                <button className="bg-red-800" onClick={stop}>
-                    Stop Audio
-                </button>
+        <div className=" text-7xl">
+            <div className="flex flex-col items-center">
+                <div className="flex bg-slate-400">
+                    <button
+                        className="bg-green-700 rounded-2xl p-3 m-3"
+                        onClick={start}
+                    >
+                        Start Audio
+                    </button>
+                    <button
+                        className="bg-red-800 rounded-2xl p-3 m-3"
+                        onClick={stop}
+                    >
+                        Stop Audio
+                    </button>
+                </div>
                 <button onClick={listParams}>List Paramiters</button>
 
                 <button onClick={setGainToZero}>Gain to 0.0</button>
                 <button onClick={setGainToHalf}>Gain to 0.5</button>
+
+                <input
+                    type="range"
+                    name="gain_slider"
+                    id="gain_slider"
+                    min="0"
+                    max="1"
+                    step="0.01"
+                    value={gainValue}
+                    onChange={handleSliderChange}
+                />
             </div>
         </div>
     )

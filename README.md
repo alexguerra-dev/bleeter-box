@@ -8,7 +8,7 @@
 
 - [x] Day One
 - [x] Day Two (Look at the UI for a little :smile:)
-- [ ] Day Three
+- [x] Day Three
 - [ ] Day Five
 - [ ] Day Six
 - [ ] Day Seven
@@ -19,6 +19,7 @@
 ## What is Bleeter Box?
 
 I am not really sure yet. It is a place to learn.
+I am on day Three! I am doing ok. I still don't know what this project is going to be.
 
 It is sort of a playground. A place to explore a thing.
 
@@ -37,7 +38,7 @@ It is sort of a playground. A place to explore a thing.
 
 - [ ] Brainstorm
 
-  - [ ] Want to have a cool background.
+  - [x] Want to have a cool background.
   - [ ] What is a music box?
   - [ ] What are the elements that make a good music box.
     - [ ] It is interesting to look at.
@@ -46,17 +47,17 @@ It is sort of a playground. A place to explore a thing.
 - [ ] Plan
   - [ ] Mockup
   - [ ] Button Design and Play
-    - [ ] Make _Audio Start_ and _Audio Stop_ Buttons.
+    - [x] Make _Audio Start_ and _Audio Stop_ Buttons.
     - [ ] See how good AI is at playing with Tailwinds
 - [ ] Figure out what it is actually going todo.
 - [x] Find amen break in wav file format.
-- [ ] Make website
-  - [ ] Add favicon
+- [x] Make website
+  - [x] Add favicon
 - [ ] Do random things
   - [x] Forget what you were going to add.
 - [ ] Project documentation
   - [ ] Document the integration of rnbo and nextjs.
-  - [ ] Add this repo as a link in the documentation.
+  - [x] Add this repo as a link in the documentation.
 
 > Idea: Spinning picture of a cute thing. When you change the pitch the image circle changes speed and direction
 
