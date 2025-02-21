@@ -2,8 +2,6 @@
 import { useState, useEffect } from 'react'
 import { createDevice, TimeNow, MessageEvent } from '@rnbo/js'
 
-import DrumMachine from '../components/DrumMachine'
-
 let WAContext
 let context: AudioContext
 
@@ -67,29 +65,18 @@ export default function Page() {
         param.value = 50
     }
     return (
-        <div className="bg-red-300 text-8xl">
-            <h1>First Page</h1>
-            <p>Gunna be a synth thing</p>
-
-            <div className="bg-green-600 w-20 h-20">hi</div>
-            <DrumMachine />
+        <div className=" text-8xl">
             <div className="flex flex-col p-100 m-20">
                 <button className="bg-green-700" onClick={start}>
-                    Click Me To Start
+                    Start Audio
                 </button>
                 <button className="bg-red-800" onClick={stop}>
-                    Click Me To Stop
+                    Stop Audio
                 </button>
-                <button onClick={listParams}>
-                    Click Me To List All The Paramiters
-                </button>
+                <button onClick={listParams}>List Paramiters</button>
 
-                <button onClick={setGainToZero}>
-                    Click to set Gain to 0.0
-                </button>
-                <button onClick={setGainToHalf}>
-                    Click to set Gain to 0.5
-                </button>
+                <button onClick={setGainToZero}>Gain to 0.0</button>
+                <button onClick={setGainToHalf}>Gain to 0.5</button>
             </div>
         </div>
     )

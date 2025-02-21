@@ -1,5 +1,7 @@
 # Bleeter Box
 
+[Repo Link](https://github.com/alexguerra-dev/bleeter-box)
+
 > If I can get to working on the thing for 10 days.
 
 ## Days I have worked on Bleeter Box
@@ -27,7 +29,7 @@ It is sort of a playground. A place to explore a thing.
 - Max / MSP
   - **RNBO**
 - NextJs
-- (Vercel)[https://vercel.com/]
+- [Vercel](https://vercel.com/)
 
 ![a man in a suit and tie is dancing in a living room and saying `` we got this ! ''](https://media.tenor.com/BI9I1EmGggUAAAAC/chris-farley-running.gif)
 
@@ -57,6 +59,8 @@ It is sort of a playground. A place to explore a thing.
   - [ ] Add this repo as a link in the documentation.
 
 > Idea: Spinning picture of a cute thing. When you change the pitch the image circle changes speed and direction
+
+Intentionally left blank.
 
 > Idea: Make a square that plays when you hover over it. Maybe, when you click it it changes tunes.
 
